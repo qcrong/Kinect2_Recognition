@@ -17,7 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 find_package( OpenCV 2.4 REQUIRED)
-
+message(" OpenCV_INCLUDE_DIRS=${OpenCV_INCLUDE_DIRS}")
+message(" OpenCV_LIBRARIES=${OpenCV_LIBRARIES}")
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
